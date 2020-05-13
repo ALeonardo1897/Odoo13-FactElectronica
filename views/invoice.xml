@@ -1,0 +1,41 @@
+<odoo>
+    <data>
+        <!-- Inherit Invoice Form -->
+        <record model="ir.ui.view" id="my-fact.invoice">
+            <field name="name">account.move.form.my-fact</field>
+            <field name="model">account.move</field>
+            <field name="inherit_id" ref="account.view_move_form"/>
+            <field name="arch" type="xml">
+
+                <!-- Show Send SUNAT Button After Button_Draft -->
+                <button name="button_draft" position="after">
+                    <!-- Send SUNAT Button -->
+                    <button name="button_fact_elec" string="Enviar a SUNAT" type="object"
+                            class="oe_highlight" attrs="{'invisible': [ '|' , ('state', '!=', 'posted'), ('http_response_code_sunat','=',200) ]}"  />
+
+                </button>
+
+
+                <field name="journal_id" position="before">
+                    <field name="type_voucher" string="Tipo de Documento"
+                           attrs="{'readonly': [ '|' , ('id', '>', 0 ), ('state', '=', 'posted') ]}" />
+
+                    <field name="response_sunat" string="Respuesta PSE"
+                        attrs="{'invisible': [('state', '!=', 'posted')], 'readonly': [ ('id', '>', 0)] }" />
+
+                    <field name="http_response_code_sunat" string="Http Response Code"
+                         attrs="{'invisible': [ '|' , ('state', '=', 'posted'), ('state','=','draft') ]}" />
+
+                    <field name="url_pdf_pse" string="URL PDF PSE"
+                        attrs="{'invisible': [('http_response_code_sunat', '!=', 200)], 'readonly': [ ('id', '>', 0)] }" />
+
+                </field>
+
+
+
+
+            </field>
+        </record>
+
+    </data>
+</odoo>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8c034c9c-3e09-43b5-98a1-893b4637f0ec" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bSa55S9vYzUagQu8WWBvSaj52J" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings>
+        <option name="useSoftWraps" value="true" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c034c9c-3e09-43b5-98a1-893b4637f0ec" name="Default Changelist" comment="" />
+      <created>1588627762396</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588627762396</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="196" y="31" key="SettingsEditor" timestamp="1588710964623">
+      <screen x="49" y="27" width="1317" height="741" />
+    </state>
+    <state x="196" y="31" key="SettingsEditor/49.27.1317.741@49.27.1317.741" timestamp="1588710964623" />
+    <state x="383" y="27" width="706" height="741" key="find.popup" timestamp="1588870783054">
+      <screen x="49" y="27" width="1317" height="741" />
+    </state>
+    <state x="383" y="27" width="706" height="741" key="find.popup/49.27.1317.741@49.27.1317.741" timestamp="1588870783054" />
+    <state x="370" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1588794614538">
+      <screen x="49" y="27" width="1317" height="741" />
+    </state>
+    <state x="370" y="89" width="672" height="678" key="search.everywhere.popup/49.27.1317.741@49.27.1317.741" timestamp="1588794614538" />
+    <state x="432" y="311" width="540" height="170" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1588872275850">
+      <screen x="49" y="27" width="1317" height="741" />
+    </state>
+    <state x="432" y="311" width="540" height="170" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/49.27.1317.741@49.27.1317.741" timestamp="1588872275850" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../l10n_latam_base/models/l10n_latam_identification_type.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
